@@ -9,6 +9,7 @@ uses
 type
   TForm1 = class(TForm)
     Button1: TButton;
+    Button2: TButton;
     procedure Button1Click(Sender: TObject);
   private
     { Private êÈåæ }
@@ -24,10 +25,8 @@ implementation
 {$R *.dfm}
 
 procedure TForm1.Button1Click(Sender: TObject);
-var
-  number : Integer;
 begin
-
+  ShowMessage('Delphi10ÅI');
 end;
 
 end.
